@@ -1,0 +1,200 @@
+.Shorts_Wrapper {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.Shorts_Wrapper .short_Vids {
+  position: relative;
+  width: 325px;
+  height: 550px;
+
+  overflow: hidden;
+}
+@media screen and (max-width: 425px) {
+  .Shorts_Wrapper .short_Vids {
+    width: 250px;
+    height: 400px;
+  }
+}
+.pauseBtn {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  color: #aaaaaa;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.playBtn {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  color: #aaaaaa;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.short_Vids:hover .playBtn,
+.short_Vids:hover .pauseBtn {
+  opacity: 1;
+}
+.Shorts_Wrapper .short_Vids video {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+@media screen and (max-width: 425px) {
+  .Shorts_Wrapper .short_Vids video {
+    width: 100%;
+    height: 400px;
+  }
+}
+.Shorts_Wrapper .short_Vids .text_content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+@media screen and (max-width: 425px) {
+  /* .Shorts_Wrapper .short_Vids .text_content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+  } */
+}
+.Shorts_Wrapper .short_Vids .text_content .logoSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.Shorts_Wrapper .short_Vids .text_content .logoSection .vids_logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.Shorts_Wrapper .short_Vids .text_content .logoSection h2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f1f1;
+}
+@media screen and (max-width: 425px) {
+  .Shorts_Wrapper .short_Vids .text_content .logoSection h2 {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+.Shorts_Wrapper .short_Vids .text_content .logoSection .subscribeBtn {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 28px;
+  color: #000;
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 3px 20px;
+  display: flex;
+  margin-left: 4rem;
+}
+@media screen and (max-width: 425px) {
+  .Shorts_Wrapper .short_Vids .text_content .logoSection .subscribeBtn {
+    font-weight: 500;
+    font-size: 8px;
+    margin-left: 30px;
+    padding: 0px 10px;
+  }
+}
+.Shorts_Wrapper .short_Vids .text_content p {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+.Shorts {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightBtns {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+@media screen and (max-width: 425px) {
+  .rightBtns {
+    margin-top: 30px;
+  }
+}
+.rightBtns .likedbtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightBtns .likedbtn .btn {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: hsla(0, 0%, 100%, 0.08);
+  font-size: 12px;
+  cursor: pointer;
+  color: #fff;
+}
+@media screen and (max-width: 425px) {
+  .rightBtns .likedbtn .btn {
+    width: 30px;
+    height: 30px;
+  }
+}
+.rightBtns .likedbtn span {
+  margin-top: 5px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+@media screen and (max-width: 425px) {
+  .rightBtns .likedbtn span {
+    margin-top: 4px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+.rightBtns .logo {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (max-width: 425px) {
+  .rightBtns .logo {
+    width: 30px;
+    height: 30px;
+  }
+}
+.rightBtns .logo img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+}

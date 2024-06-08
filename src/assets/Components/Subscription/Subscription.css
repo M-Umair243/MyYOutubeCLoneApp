@@ -1,0 +1,173 @@
+.Subscription .ThumbnailSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .Subscription .ThumbnailSection .col {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Subscription .ThumbnailSection {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Subscription .ThumbnailSection .col {
+    width: 100%;
+  }
+}
+.Subscription .NewThumbnailSection .col .infoSection .logo {
+  display: none;
+}
+.Subscription .NewThumbnailSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Subscription .NewThumbnailSection .col {
+  width: 100%;
+  max-width: 1240px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+@media screen and (max-width: 320px) {
+  .Subscription .NewThumbnailSection .col {
+    flex-direction: column;
+  }
+}
+.Subscription .NewThumbnailSection .col .image_section {
+  width: 600px;
+}
+@media screen and (max-width: 425px) {
+  .Subscription .NewThumbnailSection .col .image_section {
+    width: 300px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Subscription .NewThumbnailSection .col .image_section {
+    width: 300px;
+    height: 200px;
+  }
+}
+.Subscription .newHeroSection {
+  padding-left: 6%;
+}
+.Subscription .HeroSection {
+  padding-left: 18%;
+}
+@media screen and (max-width: 425px) {
+  .Subscription .HeroSection {
+    padding-left: 0%;
+  }
+}
+.Subscription .HeroSection .section_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.Subscription .HeroSection .section_2 h2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #f1f1f1;
+}
+
+.Subscription .HeroSection .section_2 .sortBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-right: 10px;
+}
+.Subscription .HeroSection .section_2 .sortBtn .btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Subscription .HeroSection .section_2 .sortBtn .btn:hover {
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 18.82%);
+}
+.Subscription .HeroSection .section_2 .sortBtn .btn .Grid,
+.List {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.Subscription .HeroSection .section_2 .sortBtn p {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  color: #3ea6ff;
+  padding: 0 20px;
+}
+.Subscription .HeroSection .section_2 .sortBtn p:hover {
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 18.82%);
+}
+.Subscription .newHeroSection .section_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.Subscription .newHeroSection .section_2 h2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #f1f1f1;
+}
+
+.Subscription .newHeroSection .section_2 .sortBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-right: 10px;
+}
+.Subscription .newHeroSection .section_2 .sortBtn .btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Subscription .newHeroSection .section_2 .sortBtn .btn:hover {
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 18.82%);
+}
+.Subscription .newHeroSection .section_2 .sortBtn .btn .Grid,
+.List {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.Subscription .newHeroSection .section_2 .sortBtn p {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  color: #3ea6ff;
+  padding: 0 20px;
+}
+.Subscription .newHeroSection .section_2 .sortBtn p:hover {
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 18.82%);
+}
+
+.Subscription .newHeroSection .ThumbnailSection .col {
+  max-width: 450px;
+}

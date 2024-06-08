@@ -1,0 +1,106 @@
+.underlineBorder {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.userDetails {
+  position: fixed;
+
+  top: 10px;
+  right: 4.5rem;
+  /* display: none; */
+  z-index: 2202;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  background-color: #000000;
+  height: 98vh;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: transparent rgba(255, 255, 255, 0.1) !important;
+  scrollbar-width: thin;
+}
+@media screen and (max-width: 425px) {
+  .userDetails {
+   display: none;
+  }
+}
+.userDetails:hover {
+  scrollbar-color: rgb(130, 126, 126) rgba(255, 255, 255, 0.1) !important;
+}
+.userDetails .upperSection {
+  display: flex;
+  flex-direction: row;
+
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.userDetails .upperSection .icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+.userDetails .upperSection .icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+.userDetails .upperSection .text {
+  width: 122.344px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+}
+.userDetails .upperSection .text p {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #f1f1f1;
+}
+.userDetails .upperSection .text .viewChannel {
+  margin-top: 8px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3ea6ff;
+}
+.userDetails .wrapper {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  overflow: hidden;
+}
+.userDetails .wrapper .content {
+  display: flex;
+  align-items: center;
+  padding: 8px 8px 8px 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  flex-direction: column;
+}
+.slidebar_data .slide_col {
+  width: 100%;
+}
+.userDetails .wrapper .slidebar_data {
+  width: 100%;
+}
+.userDetails .wrapper .slidebar_data .slide_col:hover {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0px;
+}
+
+.NoNuserDetails {
+  display: none;
+  /* display: block; */
+}
+@media screen and (max-width: 768px) {
+  .userDetails .slidebar_data .slide_col .col_content .text {
+      display: block;
+  }
+}

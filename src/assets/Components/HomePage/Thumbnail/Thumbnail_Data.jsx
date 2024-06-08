@@ -1,0 +1,71 @@
+import Img_2 from "../../../../assets/img_2.webp";
+const ThumbnailApi=[
+    {
+        id:1,
+        image:Img_2,
+        date:"2 may , 2021",
+        title:"Digital Marketo to their New Offer",
+        desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+        ProfileLogo:"  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+        channel_Name:"Lorem ipsum dolor, sit amet",
+       
+    },
+    // {
+    //     id:2,
+    //     image:image2,
+    //     date:"2 may , 2021",
+    //     title_one:"Digital Marketo to their New Offer",
+    //     desc_one:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    //     title_two:"Lorem ipsum dolor, sit amet",
+    //     desc_two:"  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    //     title_three:"Lorem ipsum dolor, sit amet",
+    //     desc_three:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    // },
+    // {
+    //     id:3,
+    //     image:image3,
+    //     date:"2 may , 2021",
+    //     title_one:"Digital Marketo to their New Offer",
+    //     desc_one:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    //     title_two:"Lorem ipsum dolor, sit amet",
+    //     desc_two:"  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    //     title_three:"Lorem ipsum dolor, sit amet",
+    //     desc_three:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    // },
+    // {
+    //     id:4,
+    //     image:image4,
+    //     date:"2 may , 2021",
+    //     title_one:"Digital Marketo to their New Offer",
+    //     desc_one:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    //     title_two:"Lorem ipsum dolor, sit amet",
+    //     desc_two:"  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    //     title_three:"Lorem ipsum dolor, sit amet",
+    //     desc_three:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    // },
+    // {
+    //     id:5,
+    //     image:image5,
+    //     date:"2 may , 2021",
+    //     title_one:"Digital Marketo to their New Offer",
+    //     desc_one:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    //     title_two:"Lorem ipsum dolor, sit amet",
+    //     desc_two:"  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    //     title_three:"Lorem ipsum dolor, sit amet",
+    //     desc_three:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    // },
+    // {
+    //     id:6,
+    //     image:image6,
+    //     date:"2 may , 2021",
+    //     title_one:"Digital Marketo to their New Offer",
+    //     desc_one:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    //     title_two:"Lorem ipsum dolor, sit amet",
+    //     desc_two:"  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    //     title_three:"Lorem ipsum dolor, sit amet",
+    //     desc_three:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti!",
+    // },
+]
+ 
+
+export default ThumbnailApi;

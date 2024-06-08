@@ -1,0 +1,695 @@
+.Thumbnail_Section h1 {
+  color: red;
+}
+.Thumbnail_Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 24px;
+}
+@media screen and (max-width: 768px) {
+  .Thumbnail_Section {
+    padding: 0 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.Thumbnail_Section .LeftSection {
+  width: 70%;
+  flex: 0 0 auto;
+  padding: 24px 24px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .Thumbnail_Section .LeftSection {
+    width: 640px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Thumbnail_Section .LeftSection {
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 0;
+  }
+}
+.Thumbnail_Section .LeftSection .Video_content video {
+  width: 966px;
+  height: 543px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media screen and (max-width: 1024px) {
+  .Thumbnail_Section .LeftSection .Video_content video {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .Thumbnail_Section .LeftSection .Video_content video {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.Thumbnail_Section .LeftSection .video_info h3 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #f1f1f1;
+}
+.Thumbnail_Section .LeftSection .video_info .channel_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Thumbnail_Section .LeftSection .video_info .channel_info .leftSide {
+  display: flex;
+  margin: 12px 12px 0 0;
+}
+.Thumbnail_Section .LeftSection .video_info .channel_info .leftSide .logo {
+  display: flex;
+  width: 52px;
+  height: 43px;
+  align-items: center;
+  justify-content: center;
+}
+.Thumbnail_Section .LeftSection .video_info .channel_info .leftSide .logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.Thumbnail_Section .LeftSection .video_info .channel_info .leftSide .logo_text {
+  display: flex;
+  flex-direction: column;
+}
+.Thumbnail_Section
+  .LeftSection
+  .video_info
+  .channel_info
+  .leftSide
+  .logo_text
+  h2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #f1f1f1;
+}
+.Thumbnail_Section
+  .LeftSection
+  .video_info
+  .channel_info
+  .leftSide
+  .logo_text
+  span {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+.Thumbnail_Section
+  .LeftSection
+  .video_info
+  .channel_info
+  .leftSide
+  .subscribe_btn {
+  display: flex;
+}
+
+.Thumbnail_Section
+  .LeftSection
+  .video_info
+  .channel_info
+  .leftSide
+  .subscribe_btn
+  a {
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #0f0f0f;
+  width: 94px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin-left: 24px;
+}
+@media screen and (max-width: 768px) {
+  .Thumbnail_Section
+    .LeftSection
+    .video_info
+    .channel_info
+    .leftSide
+    .subscribe_btn
+    a {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Thumbnail_Section
+    .LeftSection
+    .video_info
+    .channel_info
+    .leftSide
+    .subscribe_btn {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Thumbnail_Section
+    .LeftSection
+    .video_info
+    .channel_info
+    .leftSide
+    .subscribe_btn
+    a {
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 500;
+    width: 70px;
+    height: 26px;
+    margin-left: 10px;
+  }
+}
+.Thumbnail_Section .LeftSection .video_info .channel_info .btns_container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 12px;
+}
+@media screen and (max-width: 768px) {
+  .Thumbnail_Section .LeftSection .video_info .channel_info .btns_container {
+    display: none;
+  }
+}
+.Thumbnail_Section .LeftSection .video_info .channel_info .btns_container .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0 16px;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #f1f1f1;
+  height: 40px;
+  cursor: pointer;
+}
+.Thumbnail_Section
+  .LeftSection
+  .video_info
+  .channel_info
+  .btns_container
+  .btn_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0 16px;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #f1f1f1;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.Thumbnail_Section
+  .LeftSection
+  .video_info
+  .channel_info
+  .btns_container
+  .btn
+  .views {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #f1f1f1;
+  position: relative;
+  margin-right: 10px;
+}
+
+.Thumbnail_Section
+  .LeftSection
+  .video_info
+  .channel_info
+  .btns_container
+  .btn
+  .views::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  background: #6b6868;
+  top: 8px;
+  right: -8px;
+}
+.Thumbnail_Section .LeftSection .Comment_content .collapse_box {
+  background-color: #575555;
+  border-radius: 5px;
+  margin: 12px 12px 0 0;
+  padding: 12px;
+  width: 100%;
+}
+.Thumbnail_Section .LeftSection .Comment_content .collapse_box .text {
+  max-height: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.Thumbnail_Section .LeftSection .Comment_content .collapse_box .text .text_1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f1f1;
+}
+.Thumbnail_Section .LeftSection .Comment_content .collapse_box .text .text_1 a {
+  text-decoration: none;
+  color: #3ea6ff;
+}
+.Thumbnail_Section .LeftSection .Comment_content .collapse_box .collapse_btn {
+  text-decoration: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #f1f1f1;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.Thumbnail_Section .LeftSection .Comment_content .collapse_box .collapse_box2 {
+  max-height: 500px;
+}
+.Thumbnail_Section .LeftSection .Comment_content .collapse_box2 {
+  background-color: #575555;
+  border-radius: 5px;
+  margin: 12px 12px 0 0;
+  padding: 12px;
+}
+.Thumbnail_Section .LeftSection .Comment_content .collapse_box2 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.Thumbnail_Section .LeftSection .Comment_content .collapse_box2 .text .text_1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f1f1;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .collapse_box2
+  .text
+  .text_1
+  a {
+  text-decoration: none;
+  color: #3ea6ff;
+}
+.Thumbnail_Section .LeftSection .Comment_content .collapse_box2 .collapse_btn {
+  text-decoration: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #f1f1f1;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.Thumbnail_Section .LeftSection .Comment_content .comments_section {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0 32px 0;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_top {
+  display: flex;
+  margin-bottom: 24px;
+  align-items: center;
+  gap: 30px;
+  flex-direction: row;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_top
+  h2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #f1f1f1;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_top
+  .icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_top
+  .icons
+  img {
+  width: 24px;
+  height: 24px;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_top
+  .icons
+  span {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #f1f1f1;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_section_2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  height: 40px;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_section_2
+  .comment_input {
+  width: 100%;
+  margin-right: 16px;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_section_2
+  .comment_input
+  input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  border-bottom: 1px solid #8c8383;
+  padding-bottom: 8px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #f1f1f1;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_person
+  .logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_person
+  .left_side
+  .text {
+  display: flex;
+  flex-direction: column;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_person
+  .left_side
+  .text
+  .span_text {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_person
+  .left_side
+  .text
+  .span_text
+  span {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #f1f1f1;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_person
+  .left_side
+  .text
+  .span_text
+  .text_span {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #bfb7b7;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_person
+  .left_side
+  .text
+  p {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f1f1;
+  text-transform: capitalize;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_person
+  .left_side
+  .text
+  .reply_icon {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_person
+  .left_side
+  .text
+  .reply_icon
+  .likes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_person
+  .left_side
+  .text
+  .reply_icon
+  .likes
+  span {
+  margin-right: 8px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f1f1;
+}
+.Thumbnail_Section
+  .LeftSection
+  .Comment_content
+  .comments_section
+  .comment_person
+  .left_side
+  .text
+  .reply_icon
+  span {
+  margin-right: 8px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f1f1;
+}
+
+/* Right Section */
+.Thumbnail_Section .RightSection {
+  width: 30%;
+  flex: 0 0 auto;
+  padding: 24px 24px 0 0;
+}
+@media screen and (max-width: 1024px) {
+  .Thumbnail_Section .RightSection {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Thumbnail_Section .RightSection {
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 0;
+  }
+}
+.Thumbnail_Section .RightSection .video_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Thumbnail_Section .RightSection .video_content .Video_col {
+  display: flex;
+  flex-direction: row;
+}
+
+.Thumbnail_Section .RightSection .video_content .Video_col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (max-width: 320px) {
+  .Thumbnail_Section .RightSection .video_content .Video_col {
+    flex-direction: column;
+  }
+}
+.Thumbnail_Section .RightSection .video_content .Video_col .image_section {
+  width: 168px;
+  height: 94px;
+}
+@media screen and (max-width: 320px) {
+  .Thumbnail_Section .RightSection .video_content .Video_col .image_section {
+    width: 100%;
+    height: 100%;
+  }
+}
+.Thumbnail_Section .RightSection .video_content .Video_col .infoSection {
+  width: 226px;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  .Thumbnail_Section .RightSection .video_content .Video_col .infoSection {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Thumbnail_Section .RightSection .video_content .Video_col .infoSection {
+    width: 100%;
+    height: auto;
+  }
+}
+.Thumbnail_Section .RightSection .video_content .Video_col .infoSection .logo {
+  display: none;
+}
+.Thumbnail_Section
+  .RightSection
+  .video_content
+  .Video_col
+  .infoSection
+  .text_section
+  .description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f1f1;
+  font-family: Roboto, Arial, sans-serif;
+  margin-top: 0;
+}
+.Thumbnail_Section
+  .RightSection
+  .video_content
+  .Video_col
+  .infoSection
+  .text_section
+  .title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f1f1;
+  font-family: Roboto, Arial, sans-serif;
+}
